@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: deeppink;
+    align-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: blueviolet;
+    color: deepskyblue;
+}
+
+.topnav a.active {
+    background-color: yellowgreen;
+    color: darkcyan;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.myslides {
+    display: none;
+    max-height: 100%;
+    min-height: 100%;
+}
